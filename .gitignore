@@ -1,0 +1,16 @@
+
+# compiled binaries
+server
+client
+*.out
+
+# mac
+.DS_Store
+
+# db files (optional — you can keep them if you want demo data)
+offers_db.txt
+requests_db.txt
+next_offer_id.txt
+
+# temp files
+temp_*.txt
