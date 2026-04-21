@@ -105,8 +105,6 @@ Responses include:
 - `ackList`
 - `notification`
 
-(Defined in :contentReference[oaicite:0]{index=0})
-
 ---
 
 ### Real-Time Notifications
@@ -130,7 +128,7 @@ Instead of a database, the system uses text files:
 
 Example save logic:
 - Offers are appended to file  
-- Requests are deduplicated before saving :contentReference[oaicite:1]{index=1}  
+- Requests are deduplicated before saving 
 
 ---
 
@@ -168,7 +166,7 @@ gcc freeagle_client.c convert_category_to_string.c quit_with_error.c -o client
 
 ## Limitations
 
-- No authentication (password not validated)
+- No authentication
 - File-based storage (not scalable)
 - No concurrency handling on file writes
 - No encryption (plain TCP)
